@@ -1,0 +1,42 @@
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+!**/[Pp]ackages/build/
+
+# NuGet lock & cache
+project.lock.json
+project.assets.json
+*.nuget.cache
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini

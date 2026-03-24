@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>EZXception</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>EZXception Contributors</Authors>
+    <Description>A comprehensive library of pre-built custom exceptions covering every common scenario a .NET developer may encounter — validation, auth, data, business rules, config, external services, file I/O, networking, and more.</Description>
+    <PackageTags>exceptions;custom-exceptions;error-handling;dotnet;validation;authorization</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

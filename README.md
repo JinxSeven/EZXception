@@ -1,11 +1,12 @@
 <h1 align="center">
     <a href="">
-        <img src="./Assets/EZX-Ribbon.png" height="100px">
+        <img src="./Assets/EZX-ribbon-nobg-lit.png#gh-light-mode-only" height="100px">
+        <img src="./Assets/EZX-ribbon-nobg-drk.png#gh-dark-mode-only" height="100px">
     </a>
 </h1>
 
 <p align="center">
-  <i align="center">Never write another custom exception class ever again</i>
+  <i align="center">Never write another custom exception class ever again </i><span>🛑❌</span>
 </p>
 
 # EZXception
@@ -49,10 +50,10 @@ Every exception carries typed contextual properties (entity name, field name, st
 
 Three exceptions carry an `EZ` prefix to avoid compile-time ambiguity with identically named BCL types:
 
-| EZXception type | Would shadow |
-|---|---|
-| `EZXception.IO.EZFileNotFoundException` | `System.IO.FileNotFoundException` |
-| `EZXception.IO.EZDirectoryNotFoundException` | `System.IO.DirectoryNotFoundException` |
+| EZXception type                                     | Would shadow                                          |
+| --------------------------------------------------- | ----------------------------------------------------- |
+| `EZXception.IO.EZFileNotFoundException`             | `System.IO.FileNotFoundException`                     |
+| `EZXception.IO.EZDirectoryNotFoundException`        | `System.IO.DirectoryNotFoundException`                |
 | `EZXception.Serialization.EZSerializationException` | `System.Runtime.Serialization.SerializationException` |
 
 ## License

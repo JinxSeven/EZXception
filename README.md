@@ -33,18 +33,18 @@ Every exception carries typed contextual properties (entity name, field name, st
 
 ## Documentation
 
-- [Setup & Installation](Docs/guide.md#installation)
-- [Validation](Docs/guide.md#ezxceptionvalidation)
-- [Authorization](Docs/guide.md#ezxceptionauthorization)
-- [Data](Docs/guide.md#ezxceptiondata)
-- [Business](Docs/guide.md#ezxceptionbusiness)
-- [Domain](Docs/guide.md#ezxceptiondomain)
-- [Configuration](Docs/guide.md#ezxceptionconfiguration)
-- [External Service](Docs/guide.md#ezxceptionexternalservice)
-- [IO](Docs/guide.md#ezxceptionio)
-- [Network](Docs/guide.md#ezxceptionnetwork)
-- [Serialization](Docs/guide.md#ezxceptionserialization)
-- [Concurrency](Docs/guide.md#ezxceptionconcurrency)
+- [Setup & Installation](DOCUMENTATION.md#installation)
+- [Validation](DOCUMENTATION.md#ezxceptionvalidation)
+- [Authorization](DOCUMENTATION.md#ezxceptionauthorization)
+- [Data](DOCUMENTATION.md#ezxceptiondata)
+- [Business](DOCUMENTATION.md#ezxceptionbusiness)
+- [Domain](DOCUMENTATION.md#ezxceptiondomain)
+- [Configuration](DOCUMENTATION.md#ezxceptionconfiguration)
+- [External Service](DOCUMENTATION.md#ezxceptionexternalservice)
+- [IO](DOCUMENTATION.md#ezxceptionio)
+- [Network](DOCUMENTATION.md#ezxceptionnetwork)
+- [Serialization](DOCUMENTATION.md#ezxceptionserialization)
+- [Concurrency](DOCUMENTATION.md#ezxceptionconcurrency)
 
 ## Naming Notes
 

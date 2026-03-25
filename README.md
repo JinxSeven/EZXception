@@ -1,17 +1,17 @@
 <h1 align="center">
     <a href="">
-        <img src="./Assets/EZX-ribbon-nobg-light.png#gh-light-mode-only" height="100px">
+        <!-- <img src="./Assets/EZX-ribbon-nobg-light.png#gh-light-mode-only" height="100px"> -->
         <img src="./Assets/EZX-ribbon-nobg-dark.png#gh-dark-mode-only" height="100px">
     </a>
 </h1>
 
 <p align="center">
-  <i align="center">Never write another custom exception class ever again </i><span>🛑❌</span>
+  <i align="center">Never write another custom exception class ever again </i><span>❌</span>
 </p>
 
 # EZXception
 
-Writing custom exception classes is repetitive boilerplate. EZXception is a `netstandard2.0` library that ships 50+ pre-built, richly structured exception types covering every scenario a .NET developer encounters — validation, authorization, data access, business rules, configuration, external services, file I/O, networking, serialization, concurrency, and domain modeling.
+EZXception is a `netstandard2.0` library that ships 50+ pre-built, richly structured exception types covering every scenario a .NET developer encounters — validation, authorization, data access, business rules, configuration, external services, file I/O, networking, serialization, concurrency, and domain modeling.
 
 Instead of writing this every time:
 
@@ -30,6 +30,12 @@ throw new EntityNotFoundException("User", id);
 ```
 
 Every exception carries typed contextual properties (entity name, field name, status code, timeout, etc.) so catch blocks can read structured data instead of parsing message strings.
+
+## Get Started
+
+```bash
+dotnet add package EZXception --version 1.0.0
+```
 
 ## Documentation
 

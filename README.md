@@ -1,7 +1,7 @@
 <h1 align="center">
     <a href="">
-        <img src="./Assets/EZX-ribbon-nobg-lit.png#gh-light-mode-only" height="100px">
-        <img src="./Assets/EZX-ribbon-nobg-drk.png#gh-dark-mode-only" height="100px">
+        <img src="./Assets/EZX-ribbon-nobg-light.png#gh-light-mode-only" height="100px">
+        <img src="./Assets/EZX-ribbon-nobg-dark.png#gh-dark-mode-only" height="100px">
     </a>
 </h1>
 

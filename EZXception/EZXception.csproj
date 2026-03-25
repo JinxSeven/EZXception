@@ -15,10 +15,14 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
+	<PackageIcon>EZX-256x256.png</PackageIcon>
+	<PackageProjectUrl>https://github.com/JinxSeven/EZXception</PackageProjectUrl>
+	<Authors>Samuel Livingston | Claude</Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\Assets\EZX-256x256.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

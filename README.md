@@ -6,12 +6,12 @@
 </h1>
 
 <p align="center">
-  <i align="center">Never write another custom exception class ever again </i><span>❌</span>
+  <i align="center">Never write another custom exception class ever again.</i><span>❌</span>
 </p>
 
 # EZXception
 
-EZXception is a `netstandard2.0` library that ships 50+ pre-built, richly structured exception types covering every scenario a .NET developer encounters — validation, authorization, data access, business rules, configuration, external services, file I/O, networking, serialization, concurrency, and domain modeling.
+EZXception is a `netstandard2.0` library that ships 50+ pre-built, richly structured exception types covering every scenario a .NET developer encounters - validation, authorization, data access, business rules, configuration, external services, file I/O, networking, serialization, concurrency, and domain modeling.
 
 Instead of writing this every time:
 

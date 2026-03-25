@@ -9,16 +9,26 @@
     <!-- NuGet Package Metadata -->
     <PackageId>EZXception</PackageId>
     <Version>1.0.0</Version>
-    <Authors>EZXception Contributors</Authors>
     <Description>A comprehensive library of pre-built custom exceptions covering every common scenario a .NET developer may encounter — validation, auth, data, business rules, config, external services, file I/O, networking, and more.</Description>
     <PackageTags>exceptions;custom-exceptions;error-handling;dotnet;validation;authorization</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
+	<PackageIcon>EZX-256x256.png</PackageIcon>
+	<RepositoryUrl>https://github.com/JinxSeven/EZXception</RepositoryUrl>
+	<PackageProjectUrl>https://github.com/JinxSeven/EZXception</PackageProjectUrl>
+	<Authors>Samuel Livingston</Authors>
+	<PackageReleaseNotes>
+		Initial Release.
+		
+		Ships 50+ pre-built exception types across 11 namespaces - validation, authorization, data, business rules, domain, configuration, external services, I/O, networking, serialization, and concurrency.
+		Every exception carries typed contextual properties for structured error handling without parsing message strings.
+	</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\Assets\EZX-256x256.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
